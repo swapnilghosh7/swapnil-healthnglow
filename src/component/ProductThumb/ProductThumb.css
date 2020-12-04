@@ -1,0 +1,52 @@
+.productThumbWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productThumb{
+    padding: 25px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 20px;
+    border-radius: 6px;
+}
+.productImageWrap{
+    max-width: 200px;
+    margin: 0 auto;
+}
+.imageUrl{
+    max-width: 100%;
+}
+.thumbUrlWrap{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    max-width: 100%;
+}
+.specialPriceTag{
+    background-color: #f30303;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 11px;
+    display: inline-block;
+}
+.priceBox{
+    font-size: 15px;
+    font-weight: 600;
+}
+.productName{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media(max-width: 767px)
+{
+    .productThumb{
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+        padding: 15px;
+        margin: 25px 0;
+    }
+}
